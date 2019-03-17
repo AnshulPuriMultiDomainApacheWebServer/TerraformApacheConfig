@@ -5,7 +5,8 @@ with redundancy at the AZ, EC2 Hypervisor Host and EC2 Instance levels, along wi
 
 In order to use the repo, follow the below steps-:
 
-1) Terraform state file config. will be stored in a remote state file, in a S3 bucket, in the same AWS account that will be used to deploy this configuration, please follow the steps in this GitHub Repo for the same -
+1) Terraform state file will be stored in a remote state file, in a S3 bucket, in the same AWS account that will be used to deploy the TerraformApacheConfig, please follow the steps in the following GitHub Repo to deploy the S3 bucket - https://github.com/AnshulPuriMultiDomainApacheWebServer/TerraformS3_remote_state
+
 
 2) Once done with Step 1, note down the S3 bucket name and AWS Region that is an output at the end of running the Terraform config. in Step 1
 
